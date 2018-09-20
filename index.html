@@ -66,6 +66,71 @@
        <h2>Quantum growth rates</h2>
         <p>Just plant 6 pin oaks approxamiately 35-40 ft appart so the roots have room to overlap.</p> 
   </section>
+
+
+        
+        
+        
+        
+        
+        
+  <div class="checkbox">
+    <label>Play in Strict Mood<input type="checkbox" class="inStrict"></label></br>
+    <input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
+  </div>
+  <div class="container">
+    <div class="pad padz green">
+      <!-- The classes padz (4) are used in the HTML but not found in any stylesheet. -->
+      <audio preload="auto" id="audioGreen" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" />
+      </audio>
+    </div>
+    <!-- upper left -->
+
+    <div class="pad padz red">
+      <audio preload="auto" id="audioRed" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" />
+      </audio>
+    </div>
+    <!-- upper right -->
+
+    <div class="pad padz yellow">
+      <audio preload="auto" id="audioYellow" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" />
+      </audio>
+    </div>
+    <!-- lower left -->
+
+    <div class="pad padz blue">
+      <audio preload="auto" id="audioBlue" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" />
+      </audio>
+    </div>
+    <!-- lower right -->
+
+    <div class="pad tapper">
+      <!-- An 'onclick' attribute was found in the HTML. Use external scripts for event binding instead. -->
+      <!-- convert to an event handler -->
+      <div>
+        <span id="level_Display"></span>
+        <span class="spacer"></span>        
+        <span id="simon_sSequence">Shall we</span>
+        <span class="spacer"></span>
+        <span id="player_sInput">play a game?</span>
+      </div>
+      <!-- end of "display" -->
+    </div>
+    <!-- end of "startTapper" -->
+  </div>
+  <!-- end of "container" -->
+  <div class="twheels">
+    <label>Show Traing Wheels<input type="checkbox" class="trainingWheels"></label>
+  </div>
+      <audio preload="auto" id="audioT" src="https://static1.grsites.com/archive/sounds/vehicle/vehicle012.mp3" />
+      </audio>
+      <audio preload="auto" id="audioE" src="https://www.freesound.org/data/previews/72/72123_982109-lq.mp3" />
+      </audio>
+
+        
+        
+        
+        
   <section id="Efficient"><iframe id="video" src="https://clips.twitch.tv/embed?clip=ColdSlickCourgetteDancingBaby" frameborder="3" allowfullscreen="true" height="378" width="620"></iframe>
   </section>
   <section id="Free">
